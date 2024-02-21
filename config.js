@@ -1,4 +1,4 @@
-const('dotenv').config()
+require('dotenv').config({ path: '../.env' }); 
 const _config = {
 
     // Client Settings
