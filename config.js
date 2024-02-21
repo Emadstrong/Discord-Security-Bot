@@ -1,4 +1,4 @@
-require('dotenv').config()
+const('dotenv').config()
 const _config = {
 
     // Client Settings
