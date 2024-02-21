@@ -2,9 +2,9 @@ const _config = {
 
     // Client Settings
     prefix: "s!",
-    token: "your-token",
+    token: "process.env.TOKEN",
     date_format: "MM-DD-YYYY HH:mm A",
-    copyright: "© 2021 Your Name",
+    copyright: "© 2024 ViTK",
     colorhex: "#eb3734",
     voicechanneltojoin: "some-id",
     port: "8080",
@@ -12,10 +12,10 @@ const _config = {
 
     // MySQL Settings
     database: {
-        host: "localhost",
-        user: "root",
-        password: "",
-        database: "security"
+        host: "dpg-cn99c56d3nmc73dh8ma0-a",
+        user: "hellosjeejeww_user",
+        password: "0jNqHD2FQmVbMKvhRkenJtYgig3TiVRo",
+        database: "hellosjeejeww"
     },
 
     clientAPI: {
@@ -71,12 +71,12 @@ const _config = {
     defaultimage: "https://i.imgur.com/T9OdSQq.png", // If no evidence is provided
     owners: ['865757954950955008'], // These are role IDS that can add staff members to the staff DB
 
-    loggingguild: "865663211461017620", // This is a server ID
-    reportlogs: "865664707561914388", // This is a channel ID that reports will be sent to
-    appeallogs: "865664718283079720", // This is a channel ID that appeals will be sent to
-    updatebanslogs: "865664727551180832", // This is a channel ID that other will be sent to
+    loggingguild: "1203956999168200816", // This is a server ID
+    reportlogs: "1204357649034911775", // This is a channel ID that reports will be sent to
+    appeallogs: "1204357649034911775", // This is a channel ID that appeals will be sent to
+    updatebanslogs: "1204357649034911775", // This is a channel ID that other will be sent to
 
-    supportServerInvite: "https://hyperz.dev/discord", // This is an invite to the bots support server
+    supportServerInvite: "[**Discord.GG/ViTK**](https://www.discord.gg/9YP76AwhZV)", // This is an invite to the bots support server
 
     // This next section is recommended that you do not touch, just ignore it.
 
