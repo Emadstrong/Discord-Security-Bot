@@ -1,9 +1,9 @@
-require('dotenv').config({ path: '../.env' }); 
+require('dotenv').config
 const _config = {
 
     // Client Settings
     prefix: "s!",
-    token: "process.env.TOKEN",
+    token: process.env.TOKEN || "BOT_TOKEN",
     date_format: "MM-DD-YYYY HH:mm A",
     copyright: "© 2024 ViTK",
     colorhex: "#eb3734",
