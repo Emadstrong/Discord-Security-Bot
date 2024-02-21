@@ -1,4 +1,5 @@
 const _config = {
+    require('dotenv').config()
 
     // Client Settings
     prefix: "s!",
